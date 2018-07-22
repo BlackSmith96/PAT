@@ -27,7 +27,7 @@ int main(){
 			ans[i+j] += (p1[i]*p2[j]);
 		}
 	}
-	for(int i=0;i < 1001;++i){
+	for(int i=0;i < 2001;++i){
 		if(ans[i] != 0.0)
 			++count;
 	}
