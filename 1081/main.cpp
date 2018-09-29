@@ -29,7 +29,7 @@ int main() {
     }
 
     int integer_part = 0;
-    if(sum_numerator > sum_denominator) {
+    if(sum_numerator / sum_denominator) {
         integer_part = sum_numerator / sum_denominator;
         sum_numerator %= sum_denominator;
     }
