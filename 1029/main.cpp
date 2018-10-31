@@ -33,6 +33,6 @@ int main() {
         v3.push_back(v1[i]);
     for(;j < v2.size();++j)
         v3.push_back(v2[j]);
-    cout << v3[(n1+n2)/2];
+    cout << v3[(n1+n2+1)/2-1];
     return 0;
 }
